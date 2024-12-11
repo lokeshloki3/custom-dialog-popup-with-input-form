@@ -10,7 +10,7 @@ const DialogPopup = ({
 }) => {
   const [inputs, setInputs] = useState(
     inputFields.reduce((acc, field) => {
-      acc[field.id] = ""; // Initialize each input field with an empty string
+      acc[field.id] = "";
       return acc;
     }, {})
   );

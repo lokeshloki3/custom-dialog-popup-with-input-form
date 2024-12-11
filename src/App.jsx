@@ -4,7 +4,6 @@ import DialogPopup from "./components/DialogPopup";
 const App = () => {
   const [isOpen, setIsOpen] = useState(false);
 
-  // Array of input fields with different types
   const inputFields = [
     { id: "name", label: "Name", type: "text", placeholder: "Enter your name" },
     { id: "age", label: "Age", type: "number", placeholder: "Enter your age" },
