@@ -36,7 +36,10 @@ const DialogPopup = ({
         <h2 className="text-lg font-bold mb-4">{title}</h2>
         {inputFields.map((field) => (
           <div key={field.id} className="mb-4">
-            <label htmlFor={field.id} className="block text-sm font-medium mb-1">
+            <label
+              htmlFor={field.id}
+              className="block text-sm font-medium mb-1"
+            >
               {field.label}
             </label>
             {field.type === "textarea" ? (
