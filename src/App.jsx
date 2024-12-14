@@ -8,6 +8,7 @@ const App = () => {
     { id: "name", label: "Name", type: "text", placeholder: "Enter your name" },
     { id: "age", label: "Age", type: "number", placeholder: "Enter your age" },
     { id: "email", label: "Email", type: "email", placeholder: "Enter your email" },
+    { id: "number", label: "Number", type: "number", placeholder: "Enter your number" },
     { id: "comments", label: "Comments", type: "textarea", placeholder: "Enter your comments" },
   ];
 
